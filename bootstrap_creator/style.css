@@ -1,0 +1,61 @@
+.H {
+    text-decoration: none;
+    color: black;
+}
+
+.sha {
+    box-shadow: 1px 1px 10px 5px gray
+}
+
+.tm-container-header {
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 252, 23, 0.7875525210084033) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.tm-container-baner {
+    background-color: lavender;
+    width: calc(100% - 50px);
+}
+
+@keyframes my-move {
+    from {
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(0deg)
+    }
+}
+
+.tm-banner-text {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    animation-name: my-move;
+    animation-duration: 3s;
+}
+
+.m {
+    border: 90px;
+}
+
+.x {
+    color: cornflowerblue;
+}
+
+.my_img {
+    width: 100%;
+}
+
+.con {
+    text-align: center;
+    font-size: 50px;
+}
+
+.gi {
+    background-color: azure;
+    color: rgba(0, 212, 255, 1);
+}
+
+.gi:hover {
+    background-color: rgba(0, 212, 255, 1);
+    color: azure;
+}
